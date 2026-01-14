@@ -2,7 +2,7 @@ import pyautogui
 import time
 
 pyautogui.PAUSE = 0.5 # tempo de espera entre as ações
-link = 'https://dlp.hashtagtreinamentos.com/python/intensivao/login'
+link = 'http://10.0.70.29:3000/'
 email = 'joao@gmail.com'
 
 # 1. entrar no sistema da empresa
@@ -16,7 +16,7 @@ pyautogui.press('enter')
 time.sleep(2) # esperar a página carregar
 
 # 2. Fazer o login
-pyautogui.click(x=2689, y=392) # clicar no campo de email
+pyautogui.click(x=2789, y=513) # clicar no campo de email
 pyautogui.write(email)
 pyautogui.press('tab')
 pyautogui.write('joao@1234')
@@ -34,7 +34,7 @@ tabela = pd.read_csv('produtos.csv')
 # para cada linha da tabela
 for linha in tabela.index: 
 # clicar no 1° campo do formulário 
-    pyautogui.click(x=2605, y=276)
+    pyautogui.click(x=2467, y=361)
 
 # codigo
     codigo = tabela.loc[linha, 'codigo']
