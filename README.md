@@ -15,7 +15,7 @@ Este projeto automatiza o processo de cadastro de mercadorias num sistema web, u
 [![Time](https://img.shields.io/badge/Time-Library-blue?style=for-the-badge&logo=python&logoColor=white)](https://docs.python.org/3/library/time.html)
 
 * **Python**: Linguagem de programação principal.
-* **PyAutoGUI**: Biblioteca para automação de interface gráfica, controlo de rato e teclado.
+* **PyAutoGUI**: Biblioteca para automação de interface gráfica, controlo de mouse e teclado.
 * **Pandas**: Utilizada para a leitura e manipulação da base de dados em formato CSV.
 * **Time**: Módulo para gestão de pausas e sincronização entre as ações do script.
 
@@ -24,7 +24,7 @@ Este projeto automatiza o processo de cadastro de mercadorias num sistema web, u
 ```text
 .
 ├── main.py        # Script principal que contém o fluxo da automação
-├── auxiliar.py    # Ferramenta para identificar as coordenadas do rato
+├── auxiliar.py    # Ferramenta para identificar as coordenadas do mouse
 ├── produtos.csv   # Base de dados contendo a lista de produtos
 ├── .gitignore     # Define ficheiros ignorados pelo repositório
 └── README.md      # Documentação principal do projeto
